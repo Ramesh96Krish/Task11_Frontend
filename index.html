@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="header">
+    <img src="./Marico_logo.png" alt="Logo">
+    <p>Marico-Feedback Form</p>
+ </div>
+<form Class="Survey-Form">
+    <h3>Name<span style="color:crimson">*</span></h3>
+    <div Class="Name">
+    <p>
+    <input type="text" id="Name" placeholder="Enter the Name"><br>
+    <label for="FirstName">First</label> 
+    </p><span>
+        <p><input type="text" id="Name" placeholder="Enter the Name"><br>
+           <label for="LastName">Last</label></p></span>
+    </div>
+    <div class="Mail">
+    <h3>Email<span style="color:crimson">*</span></h3>
+    <p><input type="email" id="mail" placeholder="Enter the mail id" ><br>
+    </div>
+    <div Class="Rating">
+        <h3>Your Experience<span style="color:crimson">*</span></h3>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p>Overall, How would you rate your Experience with us?</p>
+    </div>
+<div Class="usp">
+    <h3>How Satisfied are you with<span style="color:crimson">*</span></h3>
+    <table class="Table">
+      <tr class="p">
+        <th>             </th>
+        <th>Very unsatisfied</th>
+        <th>Unsatisfied</th>
+        <th>Neutral</th>
+        <th>Satisfied</th>
+        <th>Very satisfied</th>
+      </tr>
+      <tr Class="p" id="grey">
+        <td>Purchase</td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+      </tr>
+      <tr Class="p" id="white">
+        <td>Service</td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+      </tr>
+      <tr Class="p" id="grey">
+        <td >Company Overall </td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+      </tr>
+    </table>
+</div>
+<div Class="Npl">
+    <h3>How likely are you to<span style="color:crimson">*</span></h3>
+<table Class="Table">
+
+      <tr class="q">
+        <th>               </th>
+        <th>Very unlikely</th>
+        <th>unlikely</th>
+        <th>Neutral</th>
+        <th>likely</th>
+        <th>Very likely</th>
+      </tr>
+      <tr Class="q" id="grey">
+        <td>Buy from us again</td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+      </tr>
+      <tr Class="q" id="white">
+        <td >Recommened our Products to others</td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+      </tr>
+      <tr Class="q" id="grey">
+        <td >Recommened our Products to others </td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+        <td><input Class="Button" type="radio" ></td>
+      </tr>
+</table>
+</div>
+<div Class="Text">
+    <h3>Additional Comments or suggestions</h3>
+    <textarea id="Comments" rows="4" column="100"></textarea><br>
+    <input type="submit" value="Submit">
+</div>
+</div>
+</form>  
+</body>
+</html>
